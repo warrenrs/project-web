@@ -295,7 +295,7 @@ button:focus {
 ============================================================================================ */
 .home_banner_area {
   z-index: 1;
-  background: url(../img/banner/black-banner.jpg) no-repeat scroll center center;
+  background: url(../img/banner/home-banner.jpg) no-repeat scroll center center;
   background-size: cover; }
   .home_banner_area .banner_inner {
     width: 100%; }
@@ -3007,5 +3007,23 @@ h6 {
 /* End Footer Area css
 ============================================================================================ */
 /*---------------------------------------------------- */
+
+.e-commerce_item{
+  background: #f9f9ff;
+  border-radius: 10px;
+  padding: 40px 40px 40px 40px;
+  margin-bottom: 30px;
+  transition: all 300ms linear 0s;
+  }
+    .e-commerce_item:hover {
+      background: #e7e98e;
+      box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.1); 
+    }
+    .e-commerce_image{
+      height: 100%;
+      width: 100%;
+      object-fit: contain;
+      margin-bottom: 24px;
+    }
 
 /*# sourceMappingURL=style.css.map */
